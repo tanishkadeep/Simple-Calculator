@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(19, 22, 27, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px 30px;
+    margin: 2.5em auto;
+    width: 400px;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 5px 5px 15px 15px #101318;
+    border-radius: 10px;
+}
+
+.display {
+    grid-column: 1/5;
+    background-color: #a9b37e;
+    color: black;
+    height: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 7px;
+    overflow-x: hidden;
+    font-size: 25px;
+}
+
+.main div {
+    border-radius: 7px;
+}
+
+#C {
+    grid-column: 1/3;
+    background: linear-gradient(to right, #ce061b, #e83a4d);
+    box-shadow: 4px 4px 0px 3px #ce061b;
+}
+
+#zero {
+    grid-column: 1/3;
+}
+
+.element {
+    background: linear-gradient(to right, #303030, #4e4e4e);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 3px #303030;
+}
+
+#plus {
+    grid-row: 4 / span 2;
+    grid-column: 4 / 4;
+    height: 155px;
+}
+
+#equal {
+    background: linear-gradient(to right, #2986c9, #6ab4ee);
+    box-shadow: 4px 4px 0px 3px #2680c5;
+}
+
+* {
+    color: white;
+}
+
+#Tanishka {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: rgb(67, 83, 69);
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    padding-right: 5px;
+}
